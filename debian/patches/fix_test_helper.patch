@@ -1,0 +1,19 @@
+From: Cédric Boutillier <boutil@debian.org>
+Date: Sat, 25 Apr 2015 00:30:12 +0200
+Subject: Remove bundler usage
+
+Forwarded: not-needed
+---
+ test/helper.rb | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/test/helper.rb b/test/helper.rb
+index a38d752..c1950ef 100644
+--- a/test/helper.rb
++++ b/test/helper.rb
+@@ -1,4 +1,4 @@
+-require 'bundler/setup'
++#require 'bundler/setup'
+ require 'forwardable'
+ require 'active_support'
+ require 'active_support/testing/autorun'
